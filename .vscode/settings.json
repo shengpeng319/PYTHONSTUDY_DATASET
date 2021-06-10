@@ -1,3 +1,4 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "/Users/shengpeng319/opt/miniconda3/envs/ai35/bin/python"
 }
