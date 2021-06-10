@@ -1,11 +1,7 @@
+from matplotlib import pyplot as plt
+import numpy as np
+import pandas as pd
 
-myinput = input("Please input the numbers split with comma: ")
+df = pd.DataFrame(np.random.randn(2,10)) 
 
-mylist = myinput.split(',')
-
-result = 0
-
-for i in mylist:
-    result = result + int(i)
-
-print("The calculation result is ", result)
+print(df.head().head())
